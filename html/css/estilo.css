@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#caja1{
+    height: 100px;
+    background-color:green;
+}
+#caja1 .item{
+    float: left;
+    width: 200px;
+    height: 70%;
+    background-color: rgb(255, 0, 255);
+    margin-left: 10%;
+    margin-top: 10px;
+}
+#caja1 .item1{
+    display: inline-block;
+    width: 30%;
+    height: 70%;
+    background-color: rgb(255, 0, 255);
+    margin-left: 40%;
+    margin-top: 10px;
+}
+#caja2{
+    height: 700px;
+    background-color: purple;
+}
+#caja2 .caja{
+    height: 70%;
+    width: 50%;
+    background-color: rgb(217, 255, 0);
+    margin-top: 100px;
+    margin-left: 25%;
+    display: inline-block;
+}
+#caja3{
+    height: 600px;
+    background-color: blue;
+}
+#caja3 .bordeado{
+    display: inline-block;
+    background-color: rgb(20, 202, 163);
+    height: 70%;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 90px;
+    border-radius: 30px;
+    border-bottom: ridge;
+}
+#caja4{
+    height: 600px;
+    background-color: red;
+}
+#caja4 .medio{
+    height: 100%;
+    width: 50%;
+    background-color: purple;
+    float: left;
+}
+#caja5{
+    background-color: black;
+    height: 600px;
+}
+#caja5 .azul{
+    background-color: blue;
+    width: 100px;
+    height: 100%;
+    margin-right: 0%;
+    margin-left: 154px;
+    display: inline-block;
+}
+#caja5 .naranja{
+    background-color: orange;
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    margin-left: 0%;
+}
+#caja6{
+    height: 200px;
+    background-color: whitesmoke;
+}
+#caja7{
+    height: 900px;
+    background-color:yellowgreen;
+}
+#caja7 .cuadrito{
+    background-color: goldenrod;
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#caja7 .cuadrito:nth-child(2){
+    margin-left: 780px;
+}
+#caja7 .cuadrito:nth-child(3){
+    width: 150px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-left: 720px;
+    margin-right: 720px;
+    margin-top: 150px;
+}
+#caja7 .cuadrito:nth-child(4){
+    margin-top: 150px;
+}
+#caja7 .cuadrito:nth-child(5){
+    margin-left: 780px;
+}
