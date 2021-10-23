@@ -1,0 +1,27 @@
+@media (max-width: 500px){
+    header nav{
+        width: 50px;
+    }
+    header #menuMovil{
+        display: block;
+       }
+    header #menuWeb{
+        display: none;
+    }
+       #about .col, #contacto .col{
+           width: 100%;
+       }
+       #proyectos .bordeado{
+           width: 100%;
+       }
+       #main video {
+           display: none;
+       }
+       #main #overlay{
+           background-image: url(../img/fondo.png);
+       }
+    }
+    @media (max-width: 700px){
+
+    }
+   

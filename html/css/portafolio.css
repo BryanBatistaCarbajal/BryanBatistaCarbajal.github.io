@@ -32,6 +32,9 @@ header nav{
     margin-right: 10%;
     width: 500px;
 }
+header #menuMovil{
+ display: none;
+}
 header nav ul li{
     float: left;
     list-style: none;
@@ -112,7 +115,7 @@ a.btn{
 }
 #about, #contacto, #proyectos{
     width: 80%;
-    height: 700px;
+    min-height: 700px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -147,8 +150,8 @@ a.btn{
     width: 20%;
     margin-left: 4%;
     margin-top: 90px;
-    border-radius: 4px;
-    background-color: whitesmoke;
+    border-radius: 40px 40px 0 0;
+    
 }
 #proyectos .bordeado img{
     border-radius: 40px 40px 0 0;
