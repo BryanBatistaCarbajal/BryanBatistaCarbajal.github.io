@@ -32,8 +32,13 @@
         width: 100%;
         height: 110px;
     }
+    
     #trailer {
         width: 84%;
+    }
+    #trailer h2{
+        padding-top: 30px;
+        margin-top: 10px;
     }
     .video {
         position: relative;
@@ -42,12 +47,10 @@
         height: 0;
         overflow: hidden;
         }
+        .video iframe{
 
-        .video iframe,
-        .video object,
-        .video embed {
+            height: 200px;
+            width: 200px;
+            }
 
-        width: 100%;
-        height: 100%;
-        }
 }
