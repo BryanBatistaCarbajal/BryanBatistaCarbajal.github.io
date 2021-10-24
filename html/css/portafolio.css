@@ -42,7 +42,6 @@ header nav ul li{
     margin-top: 5px;
     padding:5px;
     transition: 0.5s ease-in all;
-
 }
 header nav ul li a{
     font-size: 1.2rem;
@@ -55,7 +54,6 @@ header nav ul li:hover{
     opacity: 0.8;
     background-color: white;
     border-radius: 5px;
-
 }
 header nav ul li a:hover{
     color: var(--main-color);

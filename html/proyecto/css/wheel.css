@@ -1,0 +1,179 @@
+:root{
+    --main-color:#A30838;
+    --text-color: #101314;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: 'MedievalSharp', cursive;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 4;
+}
+header #rueda{
+    margin: 10px;
+    margin-left: 10%;
+    width: 200px;
+    font-size: 0.9rem;
+}
+header #rueda h1{
+    font-size: 1.49rem;
+    padding-bottom: 10%;
+}
+header nav{
+    margin: 10px;
+    margin-right: 10%;
+    width: 500px;
+}
+header #menuMovil{
+    display: none;
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding:5px;
+    transition: 0.5s ease-in all;
+}
+header nav ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--text-color);
+    color: white;   
+}
+header nav ul li:hover{
+    opacity: 0.8;
+    background-color: grey;
+    border-radius: 5px;
+}
+header nav ul li a:hover{
+    color: var(--main-color);
+}
+section#inicio{
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+}
+#inicio img{
+    min-width: 100%;
+    min-height: 100%;
+}
+#inicio #encima{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+   /* background-image: url(../img/patron.png);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*opacity: 0.8;*/
+    z-index: 3;
+}
+#inicio #encima h2{
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'MedievalSharp', cursive;
+}
+#descripcion{
+    width: 80%;
+    min-height: 700px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#descripcion .columna{
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+#descripcion .columna img{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+#descripcion .columna p{
+    margin-top: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
+#descripcion h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30px;
+    text-decoration: none;
+}
+#personajes{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+}
+#personajes .marco{
+    width: 23%;
+    height: 200px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-right: 1%;
+}
+#personajes img{
+    width: 180px;
+    height: 300px;
+    border-radius: 40px 40px 0 0;
+    cursor: pointer;
+}
+#personajes h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+#personajes h3 {
+    width: 331px;
+    margin-left: 1%;
+}
+#separador{
+    width: 100%;
+    height: 110px;
+}
+#trailer{
+    width: 80%;
+    min-height: 700px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 150px;
+}
+#trailer h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 95px;
+}
+.video{
+    padding-top: 10px;
+    padding-left: 27%;
+    width: 1080px;
+    height: 720px;
+}
+#derechos{
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 0%;
+    font-family: 'Varela Round', sans-serif;
+}
+#derechos h5{
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    padding-top: 25px;
+}

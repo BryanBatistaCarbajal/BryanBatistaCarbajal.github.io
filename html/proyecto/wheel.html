@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Rueda del Tiempo</title>
+    <link rel="stylesheet" href="./css/wheel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+<link rel="shortcut icon" href="./img/uroboro.png"> 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="/html/css/all.min.css">
+<link rel="stylesheet" href="./css/mediaquerys.css">
+
+</head>
+<body>
+    <header>
+        <div id="rueda" class="item">
+            <h1>La Rueda del Tiempo</h1>
+        </div>
+        <nav class="item">
+            <ul id="menuWeb">
+                <li>
+                    <a data-scroll href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a data-scroll href="#descripcion">Introducción</a>
+                </li>
+                <li>
+                    <a data-scroll href="#personajes">Personajes</a>
+                </li>
+                <li>
+                    <a data-scroll href="#trailer">Trailer</a>
+                </li>
+                
+            </ul>
+            <ul id="menuMovil">
+                <li> 
+                    <a href="">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <img src="./img/fondo2.jpg" alt="">
+        </img>
+        <div id="encima">
+        <h2 data-aos="fade-up" data-aos-delay="100"> Los recuerdos se convierten en leyenda.</h2>
+    </div>
+    </section>
+    <section id="descripcion">
+        <h2>Introducción</h2>
+        <div class="columna">
+            <img src="./img/uroboro.png" data-aos="slide-down"  alt="">
+        </div>
+        <div class="columna">
+            <p>
+                En la mitología de la saga, una deidad conocida como el Creador creó el universo y la Rueda del tiempo, 
+                que gobierna toda la existencia. La Rueda tiene siete rayos, cada uno representa una «edad» o fase de la historia,
+                y gira bajo la influencia del Poder Único, que fluye de la Fuente Verdadera compuesta de mitades masculinas y femeninas (<i>saidin</i> y <i>saidar</i>). 
+                <br>
+                <br>
+                Los humanos que pueden usar este poder se llaman 'canalizadores'; su principal organización en los libros son los Aes Sedai o «Siervos de todos». 
+                Con catorce libros y una precuela, varios millones de copias vendidas en todo el mundo y ocho volúmenes
+                en el número uno de los Best Sellers del New York Times, <i>La rueda del tiempo</i> es una de las sagas de fantasía 
+                épica contemporáneas que más expectación genera.
+                <br>
+                <br>
+                La adaptación de la longeva serie de fantasía épica ya tiene confirmada la fecha de estreno de su primera temporada. 
+                El próximo 19 de noviembre de 2021 llegará en <i>streaming</i> en Amazon Prime Video. </p>
+        </div>
+    </section>
+    <section id="personajes">
+        <h2>Personajes Principales</h2>
+        <div class="marco">
+           <a href="./rand.html"><img src="./img/rand.png" alt=""></a> 
+           <h3>Rand al'Thor</h3>
+            <h4></h4>
+        </div>
+        <div class="marco">
+            <a href="./math.html"> <img src="./img/mat.png" alt=""></a>
+            <h3 href="">Mat Cauthon</h3>
+            <h4></h4>
+        </div>
+        <div class="marco">
+            <a href="./perrin.html"><img src="./img/perrin.png" alt=""></a>
+            <h3 href="">Perrin Aybara</h3>
+            <h3></h3>
+        </div>
+        <div class="marco">
+            <a href="./egwene.html"><img href=""src="./img/egwene.png" alt=""></a>
+            <h3 href="">Egwene al'Vere</h3>
+            <h4></h4>
+        </div>
+    </section>
+    <div id="separador"></div>
+    <section id="trailer">
+        <h2>Tráiler</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Fus4Xb_TLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    <footer id="derechos">
+        <h5>Bryan Batista Carbajal. Todos los derechos reservados ©.
+            <br>
+            Si haces plagio te lleva la ley papu.
+            <br>
+            2021.
+            <br>
+            </h5>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script>
+      AOS.init(),{
+	speed: 600,
+	speedAsDuration: true
+}
+      var scroll = new SmoothScroll('a[href*="#"]',{
+	speed: 600,
+	speedAsDuration: true
+});
+    </script>
+  
+</body>
+</html>
