@@ -1,14 +1,76 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PTweet</title>
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <label for="" id="usuario"></label>
+    <header>
+        <div>
+            <img src="img/ptweetlogo.png" alt="" width="150px">
+        </div>
+        <div>
+            <h1>Inicio</h1>
+           
+        </div>
+        <div>
+            <div id="search">
+                <input type="text">
+            </div>
+        </div>
+    </header>
+    <main>
+       <aside id="left">
+           <ul>
+               <li>
+                   <a href="">Index</a>
+               </li>
+           </ul>
+       </aside>
+       <section id="center">
+        <div id="newPost">
+            <div>
+                <img src="img/camerino.jpg" alt="" class="imgUser" id="imgUser"/>
+            </div>
+            <div>
+                <textarea name="" id="txtTweet" cols="30" rows="5" placeholder="¿Qué le quieres decir a Ciudad Pluche?" 
+                autofocus></textarea>
+                <br>
+                <button id="btnTweet">PTweetear</button>
+            </div>
+        </div>
+        <div id="posts">
+            <div class="post">
+                <div>
+                    <img src="img/camerino.jpg" alt="" class="imgUser">
+                </div>
+                <div>
+                    <h2> 
+                        <span>Don camerino</span>
+                        <span>@camerino</span>
+                    </h2>
+                    <div class="textTweet">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis 
+                        laudantium amet molestias exercitationem laborum rem tenetur veniam 
+                        aliquam maiores, ea necessitatibus ipsum modi placeat et unde enim 
+                        atque quidem corrupti?
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+       </section>
+       <aside id="rigth">
+           <div class="card">
+               asd
+           </div>
+       </aside>
+    </main>
+
     <script src="js/index.js"></script>
 </body>
 </html>
