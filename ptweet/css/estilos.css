@@ -8,13 +8,13 @@
     padding:0px;
 }
 
-main{
+#login{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
-main .col{
+#login .col{
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -22,38 +22,38 @@ main .col{
     height:100vh;
 }
 
-main .col:first-child{
+#login .col:first-child{
     flex: 2;
     background-image:url(../img/fondo.png);
     background-size: 100% 100%;
 }
-main .col:last-child{
+#login .col:last-child{
     /*este pading es como las manecillas del reloj*/
     padding: 100px 50px 0px 50px;
     /*background-image:url(../img/fondopeluche.png);
     background-size: 150% 100%;*/
 }
-main .col:last-child h1{
+#login .col:last-child h1{
     font-size: 2rem;
     text-align:right;
 } 
-main .col:last-child h1 img{
+#login .col:last-child h1 img{
     width: 300px;
 }
-main .col:last-child h2{
+#login .col:last-child h2{
     font-size: 1.4rem;
     text-align:right;
 } 
-main .col:last-child fieldset{
+fieldset{
     padding:5px;
     padding-top:20px;
     border:none;
 }
-main .col:last-child fieldset label{
+label{
     font-weight: lighter;
    
 }
-main .col:last-child fieldset input{
+input{
     padding:5px;
     height: 30px;
     outline-color: var(--p-amarillo);
