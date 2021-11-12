@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "img":"camerino.jpg",
+        "nombre":"Don Camerino",
+        "username":"camerino",
+        "fecha":"2021/03/2021 12:59",
+        "tweet":"Soy dueño de media ciudad pluche",
+        "retweets":12,
+        "likes":1,
+        "comentarios":[
+            {   
+                "id_usuario":2,
+                "img":"lucrecia.jpg",
+                "nombre":"Lucrecia",
+                "username":"lucre",
+                "fecha":"2021/03/2021 14:20",
+                "comentario":"Que wapooo "
+            },
+            {   
+                "id_usuario":3,
+                "img":"ludo.jpg",
+                "nombre":"Ludovico P",
+                "username":"ludovico",
+                "fecha":"2021/03/2021 14:20",
+                "comentario":"¿Me aumenta el sueldo? "
+            }
+        ]
+    },
+    {
+        "id":2,
+        "img":"bibi.jpg",
+        "nombre":"Bibi",
+        "username":"bibi",
+        "fecha":"2021/04/2021 12:59",
+        "tweet":"Te amaré por lo que eres no por lo que tienes",
+        "retweets":0,
+        "likes":0,
+        "comentarios":[
+        ]
+    },
+    {
+        "id":3,
+        "img":"excelsa.jpg",
+        "nombre":"Excelsa",
+        "username":"exce",
+        "fecha":"2021/05/2021 20:00",
+        "tweet":"Sho solo soy la sirvienta",
+        "retweets":12,
+        "likes":1,
+        "comentarios":[
+        ]
+    }
+]

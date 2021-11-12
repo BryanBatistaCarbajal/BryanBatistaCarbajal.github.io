@@ -2,6 +2,16 @@ window.onload=() =>{
     let usuario=JSON.parse(localStorage.getItem("usuario"));
     document.getElementById("imgUser").src="./img/"+usuario.imagen;
     let arrayTw=[];
+    var xobj= new XMLHttpRequest ();
+    xobj.overrideMimeType("application/js");
+    xobj.open('GET','./js/tweets.json',true);
+    xobj.onreadystatechange=function(){
+        if (xobj.readyState == 4 && xobj.status=='200'){
+            arrayTw=JSON.parse (xobj.responseText);
+            console.log(arrayTw);
+        }
+    }
+    
    // console.log(usuario);
     //document.getElementById("usuario").innerHTML="Hola "+usuario.nombre;
     let txtTweet=document.getElementById("txtTweet");
